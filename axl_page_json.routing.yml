@@ -1,0 +1,10 @@
+axl_page_json.page_json_controller_page:
+  path: '/page_json/{siteapikey}/{node}'
+  defaults:
+    _controller: '\Drupal\axl_page_json\Controller\PageJsonController::page'
+  requirements:
+    _permission: 'access content'
+  options:
+    parameters:
+      node:
+        type: entity:node

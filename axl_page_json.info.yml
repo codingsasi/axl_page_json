@@ -1,0 +1,6 @@
+name: 'axl_page_json'
+type: module
+description: 'Drupal Competency Check Module'
+core: 8.x
+core_version_requirement: ^8 | ^9
+package: 'Axelerant'

@@ -1,0 +1,5 @@
+services:
+  axl_page_json.route_subscriber:
+    class: Drupal\axl_page_json\Routing\RouteSubscriber
+    tags:
+      - { name: event_subscriber }
