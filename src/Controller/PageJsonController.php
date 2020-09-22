@@ -15,13 +15,13 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 class PageJsonController extends ControllerBase {
 
   /**
+   * Serializes a given entity into a supported format.
+   *
    * @var \Symfony\Component\Serializer\Serializer
    */
   private $serializer;
 
   /**
-   * Serializes a given entity into a supported format.
-   *
    * @param \Symfony\Component\Serializer\Serializer $serializer
    */
   public function __construct(Serializer $serializer) {
